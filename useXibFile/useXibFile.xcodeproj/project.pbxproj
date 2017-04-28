@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AAB3091EB2DF2000B11AD9 /* NutritionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAB3071EB2DF2000B11AD9 /* NutritionListViewController.m */; };
+		41AAB30A1EB2DF2000B11AD9 /* NutritionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AAB3081EB2DF2000B11AD9 /* NutritionListViewController.xib */; };
+		41AAB3121EB2DFA300B11AD9 /* NutritionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAB3101EB2DFA300B11AD9 /* NutritionCell.m */; };
+		41AAB3131EB2DFA300B11AD9 /* NutritionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AAB3111EB2DFA300B11AD9 /* NutritionCell.xib */; };
+		41AAB3181EB3181400B11AD9 /* NutritionInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAB3161EB3181400B11AD9 /* NutritionInformationViewController.m */; };
+		41AAB3191EB3181400B11AD9 /* NutritionInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AAB3171EB3181400B11AD9 /* NutritionInformationViewController.xib */; };
+		41AAB31E1EB3257600B11AD9 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAB31C1EB3257600B11AD9 /* PayViewController.m */; };
+		41AAB31F1EB3257600B11AD9 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AAB31D1EB3257600B11AD9 /* PayViewController.xib */; };
+		41AAB3231EB32FB600B11AD9 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAB3221EB32FB600B11AD9 /* PopupView.m */; };
+		41AAB3251EB32FC600B11AD9 /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AAB3241EB32FC600B11AD9 /* PopupView.xib */; };
+		41ECA9951EB1CDA2007071DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9941EB1CDA2007071DF /* main.m */; };
+		41ECA9981EB1CDA2007071DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9971EB1CDA2007071DF /* AppDelegate.m */; };
+		41ECA9A01EB1CDA2007071DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA99F1EB1CDA2007071DF /* Assets.xcassets */; };
+		41ECA9A31EB1CDA2007071DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA9A11EB1CDA2007071DF /* LaunchScreen.storyboard */; };
+		41ECA9AE1EB1CDA2007071DF /* useXibFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9AD1EB1CDA2007071DF /* useXibFileTests.m */; };
+		41ECA9B91EB1CDA2007071DF /* useXibFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9B81EB1CDA2007071DF /* useXibFileUITests.m */; };
+		41ECA9DF1EB1E022007071DF /* BMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9DD1EB1E022007071DF /* BMIViewController.m */; };
+		41ECA9E01EB1E022007071DF /* BMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA9DE1EB1E022007071DF /* BMIViewController.xib */; };
+		41ECA9E61EB1EC32007071DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA9E41EB1EC32007071DF /* DetailViewController.m */; };
+		41ECA9E71EB1EC32007071DF /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA9E51EB1EC32007071DF /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41ECA9AA1EB1CDA2007071DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ECA9881EB1CDA2007071DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41ECA98F1EB1CDA2007071DF;
+			remoteInfo = useXibFile;
+		};
+		41ECA9B51EB1CDA2007071DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41ECA9881EB1CDA2007071DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41ECA98F1EB1CDA2007071DF;
+			remoteInfo = useXibFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41AAB3061EB2DF2000B11AD9 /* NutritionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutritionListViewController.h; sourceTree = "<group>"; };
+		41AAB3071EB2DF2000B11AD9 /* NutritionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionListViewController.m; sourceTree = "<group>"; };
+		41AAB3081EB2DF2000B11AD9 /* NutritionListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NutritionListViewController.xib; sourceTree = "<group>"; };
+		41AAB30F1EB2DFA300B11AD9 /* NutritionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutritionCell.h; sourceTree = "<group>"; };
+		41AAB3101EB2DFA300B11AD9 /* NutritionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionCell.m; sourceTree = "<group>"; };
+		41AAB3111EB2DFA300B11AD9 /* NutritionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NutritionCell.xib; sourceTree = "<group>"; };
+		41AAB3151EB3181400B11AD9 /* NutritionInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutritionInformationViewController.h; sourceTree = "<group>"; };
+		41AAB3161EB3181400B11AD9 /* NutritionInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionInformationViewController.m; sourceTree = "<group>"; };
+		41AAB3171EB3181400B11AD9 /* NutritionInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NutritionInformationViewController.xib; sourceTree = "<group>"; };
+		41AAB31B1EB3257600B11AD9 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		41AAB31C1EB3257600B11AD9 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		41AAB31D1EB3257600B11AD9 /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		41AAB3211EB32FB600B11AD9 /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		41AAB3221EB32FB600B11AD9 /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		41AAB3241EB32FC600B11AD9 /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		41ECA9901EB1CDA2007071DF /* useXibFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = useXibFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECA9941EB1CDA2007071DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41ECA9961EB1CDA2007071DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41ECA9971EB1CDA2007071DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41ECA99F1EB1CDA2007071DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41ECA9A21EB1CDA2007071DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41ECA9A41EB1CDA2007071DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ECA9A91EB1CDA2007071DF /* useXibFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = useXibFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECA9AD1EB1CDA2007071DF /* useXibFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = useXibFileTests.m; sourceTree = "<group>"; };
+		41ECA9AF1EB1CDA2007071DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ECA9B41EB1CDA2007071DF /* useXibFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = useXibFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ECA9B81EB1CDA2007071DF /* useXibFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = useXibFileUITests.m; sourceTree = "<group>"; };
+		41ECA9BA1EB1CDA2007071DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41ECA9DC1EB1E022007071DF /* BMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMIViewController.h; path = ViewControllers/BMIViewController.h; sourceTree = "<group>"; };
+		41ECA9DD1EB1E022007071DF /* BMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMIViewController.m; path = ViewControllers/BMIViewController.m; sourceTree = "<group>"; };
+		41ECA9DE1EB1E022007071DF /* BMIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BMIViewController.xib; path = ViewControllers/BMIViewController.xib; sourceTree = "<group>"; };
+		41ECA9E31EB1EC32007071DF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		41ECA9E41EB1EC32007071DF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		41ECA9E51EB1EC32007071DF /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41ECA98D1EB1CDA2007071DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9A61EB1CDA2007071DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9B11EB1CDA2007071DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AAB3051EB2DEE500B11AD9 /* NutritionListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41AAB3061EB2DF2000B11AD9 /* NutritionListViewController.h */,
+				41AAB3071EB2DF2000B11AD9 /* NutritionListViewController.m */,
+				41AAB3081EB2DF2000B11AD9 /* NutritionListViewController.xib */,
+				41AAB30E1EB2DF8400B11AD9 /* NutritionCell */,
+			);
+			name = NutritionListViewController;
+			sourceTree = "<group>";
+		};
+		41AAB30E1EB2DF8400B11AD9 /* NutritionCell */ = {
+			isa = PBXGroup;
+			children = (
+				41AAB30F1EB2DFA300B11AD9 /* NutritionCell.h */,
+				41AAB3101EB2DFA300B11AD9 /* NutritionCell.m */,
+				41AAB3111EB2DFA300B11AD9 /* NutritionCell.xib */,
+			);
+			name = NutritionCell;
+			sourceTree = "<group>";
+		};
+		41AAB3141EB317E500B11AD9 /* NutritionInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41AAB3151EB3181400B11AD9 /* NutritionInformationViewController.h */,
+				41AAB3161EB3181400B11AD9 /* NutritionInformationViewController.m */,
+				41AAB3171EB3181400B11AD9 /* NutritionInformationViewController.xib */,
+			);
+			name = NutritionInformationViewController;
+			sourceTree = "<group>";
+		};
+		41AAB31A1EB3254900B11AD9 /* PayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41AAB31B1EB3257600B11AD9 /* PayViewController.h */,
+				41AAB31C1EB3257600B11AD9 /* PayViewController.m */,
+				41AAB31D1EB3257600B11AD9 /* PayViewController.xib */,
+			);
+			name = PayViewController;
+			sourceTree = "<group>";
+		};
+		41AAB3201EB32F8900B11AD9 /* PopupView */ = {
+			isa = PBXGroup;
+			children = (
+				41AAB3211EB32FB600B11AD9 /* PopupView.h */,
+				41AAB3221EB32FB600B11AD9 /* PopupView.m */,
+				41AAB3241EB32FC600B11AD9 /* PopupView.xib */,
+			);
+			name = PopupView;
+			sourceTree = "<group>";
+		};
+		41ECA9871EB1CDA2007071DF = {
+			isa = PBXGroup;
+			children = (
+				41ECA9921EB1CDA2007071DF /* useXibFile */,
+				41ECA9AC1EB1CDA2007071DF /* useXibFileTests */,
+				41ECA9B71EB1CDA2007071DF /* useXibFileUITests */,
+				41ECA9911EB1CDA2007071DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41ECA9911EB1CDA2007071DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9901EB1CDA2007071DF /* useXibFile.app */,
+				41ECA9A91EB1CDA2007071DF /* useXibFileTests.xctest */,
+				41ECA9B41EB1CDA2007071DF /* useXibFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41ECA9921EB1CDA2007071DF /* useXibFile */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9E11EB1EBE9007071DF /* BMIViewController */,
+				41AAB3201EB32F8900B11AD9 /* PopupView */,
+				41ECA9E21EB1EC06007071DF /* DetailViewController */,
+				41AAB3051EB2DEE500B11AD9 /* NutritionListViewController */,
+				41AAB3141EB317E500B11AD9 /* NutritionInformationViewController */,
+				41AAB31A1EB3254900B11AD9 /* PayViewController */,
+				41ECA9961EB1CDA2007071DF /* AppDelegate.h */,
+				41ECA9971EB1CDA2007071DF /* AppDelegate.m */,
+				41ECA99F1EB1CDA2007071DF /* Assets.xcassets */,
+				41ECA9A11EB1CDA2007071DF /* LaunchScreen.storyboard */,
+				41ECA9A41EB1CDA2007071DF /* Info.plist */,
+				41ECA9931EB1CDA2007071DF /* Supporting Files */,
+			);
+			path = useXibFile;
+			sourceTree = "<group>";
+		};
+		41ECA9931EB1CDA2007071DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9941EB1CDA2007071DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41ECA9AC1EB1CDA2007071DF /* useXibFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9AD1EB1CDA2007071DF /* useXibFileTests.m */,
+				41ECA9AF1EB1CDA2007071DF /* Info.plist */,
+			);
+			path = useXibFileTests;
+			sourceTree = "<group>";
+		};
+		41ECA9B71EB1CDA2007071DF /* useXibFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9B81EB1CDA2007071DF /* useXibFileUITests.m */,
+				41ECA9BA1EB1CDA2007071DF /* Info.plist */,
+			);
+			path = useXibFileUITests;
+			sourceTree = "<group>";
+		};
+		41ECA9E11EB1EBE9007071DF /* BMIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9DC1EB1E022007071DF /* BMIViewController.h */,
+				41ECA9DD1EB1E022007071DF /* BMIViewController.m */,
+				41ECA9DE1EB1E022007071DF /* BMIViewController.xib */,
+			);
+			name = BMIViewController;
+			sourceTree = "<group>";
+		};
+		41ECA9E21EB1EC06007071DF /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41ECA9E31EB1EC32007071DF /* DetailViewController.h */,
+				41ECA9E41EB1EC32007071DF /* DetailViewController.m */,
+				41ECA9E51EB1EC32007071DF /* DetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41ECA98F1EB1CDA2007071DF /* useXibFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECA9BD1EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFile" */;
+			buildPhases = (
+				41ECA98C1EB1CDA2007071DF /* Sources */,
+				41ECA98D1EB1CDA2007071DF /* Frameworks */,
+				41ECA98E1EB1CDA2007071DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = useXibFile;
+			productName = useXibFile;
+			productReference = 41ECA9901EB1CDA2007071DF /* useXibFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41ECA9A81EB1CDA2007071DF /* useXibFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECA9C01EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFileTests" */;
+			buildPhases = (
+				41ECA9A51EB1CDA2007071DF /* Sources */,
+				41ECA9A61EB1CDA2007071DF /* Frameworks */,
+				41ECA9A71EB1CDA2007071DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41ECA9AB1EB1CDA2007071DF /* PBXTargetDependency */,
+			);
+			name = useXibFileTests;
+			productName = useXibFileTests;
+			productReference = 41ECA9A91EB1CDA2007071DF /* useXibFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41ECA9B31EB1CDA2007071DF /* useXibFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ECA9C31EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFileUITests" */;
+			buildPhases = (
+				41ECA9B01EB1CDA2007071DF /* Sources */,
+				41ECA9B11EB1CDA2007071DF /* Frameworks */,
+				41ECA9B21EB1CDA2007071DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41ECA9B61EB1CDA2007071DF /* PBXTargetDependency */,
+			);
+			name = useXibFileUITests;
+			productName = useXibFileUITests;
+			productReference = 41ECA9B41EB1CDA2007071DF /* useXibFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41ECA9881EB1CDA2007071DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NguyenTruongDoanh;
+				TargetAttributes = {
+					41ECA98F1EB1CDA2007071DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					41ECA9A81EB1CDA2007071DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 41ECA98F1EB1CDA2007071DF;
+					};
+					41ECA9B31EB1CDA2007071DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 41ECA98F1EB1CDA2007071DF;
+					};
+				};
+			};
+			buildConfigurationList = 41ECA98B1EB1CDA2007071DF /* Build configuration list for PBXProject "useXibFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41ECA9871EB1CDA2007071DF;
+			productRefGroup = 41ECA9911EB1CDA2007071DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41ECA98F1EB1CDA2007071DF /* useXibFile */,
+				41ECA9A81EB1CDA2007071DF /* useXibFileTests */,
+				41ECA9B31EB1CDA2007071DF /* useXibFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41ECA98E1EB1CDA2007071DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECA9E01EB1E022007071DF /* BMIViewController.xib in Resources */,
+				41ECA9A31EB1CDA2007071DF /* LaunchScreen.storyboard in Resources */,
+				41AAB3131EB2DFA300B11AD9 /* NutritionCell.xib in Resources */,
+				41AAB3251EB32FC600B11AD9 /* PopupView.xib in Resources */,
+				41AAB30A1EB2DF2000B11AD9 /* NutritionListViewController.xib in Resources */,
+				41ECA9A01EB1CDA2007071DF /* Assets.xcassets in Resources */,
+				41ECA9E71EB1EC32007071DF /* DetailViewController.xib in Resources */,
+				41AAB3191EB3181400B11AD9 /* NutritionInformationViewController.xib in Resources */,
+				41AAB31F1EB3257600B11AD9 /* PayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9A71EB1CDA2007071DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9B21EB1CDA2007071DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41ECA98C1EB1CDA2007071DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECA9981EB1CDA2007071DF /* AppDelegate.m in Sources */,
+				41ECA9951EB1CDA2007071DF /* main.m in Sources */,
+				41AAB3121EB2DFA300B11AD9 /* NutritionCell.m in Sources */,
+				41AAB3181EB3181400B11AD9 /* NutritionInformationViewController.m in Sources */,
+				41AAB3091EB2DF2000B11AD9 /* NutritionListViewController.m in Sources */,
+				41ECA9DF1EB1E022007071DF /* BMIViewController.m in Sources */,
+				41AAB3231EB32FB600B11AD9 /* PopupView.m in Sources */,
+				41ECA9E61EB1EC32007071DF /* DetailViewController.m in Sources */,
+				41AAB31E1EB3257600B11AD9 /* PayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9A51EB1CDA2007071DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECA9AE1EB1CDA2007071DF /* useXibFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ECA9B01EB1CDA2007071DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ECA9B91EB1CDA2007071DF /* useXibFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41ECA9AB1EB1CDA2007071DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41ECA98F1EB1CDA2007071DF /* useXibFile */;
+			targetProxy = 41ECA9AA1EB1CDA2007071DF /* PBXContainerItemProxy */;
+		};
+		41ECA9B61EB1CDA2007071DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41ECA98F1EB1CDA2007071DF /* useXibFile */;
+			targetProxy = 41ECA9B51EB1CDA2007071DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41ECA9A11EB1CDA2007071DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41ECA9A21EB1CDA2007071DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41ECA9BB1EB1CDA2007071DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41ECA9BC1EB1CDA2007071DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41ECA9BE1EB1CDA2007071DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = useXibFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41ECA9BF1EB1CDA2007071DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = useXibFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41ECA9C11EB1CDA2007071DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = useXibFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/useXibFile.app/useXibFile";
+			};
+			name = Debug;
+		};
+		41ECA9C21EB1CDA2007071DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = useXibFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/useXibFile.app/useXibFile";
+			};
+			name = Release;
+		};
+		41ECA9C41EB1CDA2007071DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = useXibFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = useXibFile;
+			};
+			name = Debug;
+		};
+		41ECA9C51EB1CDA2007071DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = useXibFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bravesoft.useXibFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = useXibFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41ECA98B1EB1CDA2007071DF /* Build configuration list for PBXProject "useXibFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECA9BB1EB1CDA2007071DF /* Debug */,
+				41ECA9BC1EB1CDA2007071DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECA9BD1EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECA9BE1EB1CDA2007071DF /* Debug */,
+				41ECA9BF1EB1CDA2007071DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECA9C01EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECA9C11EB1CDA2007071DF /* Debug */,
+				41ECA9C21EB1CDA2007071DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ECA9C31EB1CDA2007071DF /* Build configuration list for PBXNativeTarget "useXibFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECA9C41EB1CDA2007071DF /* Debug */,
+				41ECA9C51EB1CDA2007071DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41ECA9881EB1CDA2007071DF /* Project object */;
+}
